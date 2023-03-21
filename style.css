@@ -1,0 +1,37 @@
+.wordsBoard {
+  /* box'ı ortalamak için */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* içeriği düzenlemek için*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* wordle boyutları */
+  height: 400px;
+  width: 330px;
+}
+
+.boxRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  height: 60px;
+  width: 60px;
+  border-color: gray;
+  border-radius: 5px;
+  border-style: solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
