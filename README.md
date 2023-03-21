@@ -1,1 +1,1 @@
-# Wordle-Clone-JavaScript
+# Wordle Clone in JavaScript
